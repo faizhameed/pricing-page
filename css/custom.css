@@ -1,7 +1,14 @@
 .cf-grey-section {
   padding:0px;
   /*background: #FCFCFC;*/
-  background: #eeffff;
+  background: #eee;
+}
+.cf-grey-sectionn{
+  border: 2px solid #eee;
+  border-radius:25px;
+  box-shadow: 2px 2px 75px 0 #d2d2d2;
+  margin: 30px auto;
+  width: 70%;
 }
 .cf-white-section {
   padding: 20px 0;
@@ -327,7 +334,321 @@ h3.aps{
 a.social-network-a:visited{
    color: #337ab7;
 }
+.freemium-box{
+  width:80%;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 75px 0 #d2d2d2;
+  height:230px;
+  margin: 50px auto;
+}
+img.freemium-icons{
+  width:3%;
+  margin: 0 auto;
+}
+.freemium-imgs{
+  margin: 0px 120px;
+}
+hr{
+  border: 1px solid #ffd246;
+}
+a.card2-btn{
+  border: 2px solid #ffd246;
+  padding: 5px;
+  background-color: #ffd246;
+  color: #fff;
+}
+
+h3.card2-h3{
+    font-weight:bold;
+    text-align: center;
+    
+}
+p.card2-p{
+  text-align: center;
+}
+span.span-icons{
+  font-size: 15px;
+  padding-right:10px;
+}
+i.fa.fa-check-circle-o{
+  color: #007e33;
+}
 /*new css*/
+/*sliding logos*/
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 2500px;
+}
+
+.container .customer-logos {
+  background-color: #eeffff;
+  padding:0px;
+}
+
+.container .customer-logos .slide {
+  margin: auto 10px;
+}
+
+.container .customer-logos .emi img,
+.container .customer-logos .pedlite img,
+.container .customer-logos .manipal img,
+.container .customer-logos .ujivan img {
+  
+}
+
+.container .customer-logos .amynk img {
+  height:126px;
+  width: auto;
+}
+
+.container .logos-company {
+  position: absolute;
+  top: 84px;
+  display: inline;
+}
+.plans-and-features{
+  padding:20px;
+}
+h2.pf-h2{
+  font-weight: bold;
+  font-size: 35px;
+}
+h4.pf-h4{
+  font-weight: bold;
+  font-size: 24px;
+}
+p.pf-para{
+  color: #0093dd;
+}
+p.pf-para2{
+  margin-top: 15px;
+}
+.calendar-box{
+  border: 2px solid #fff;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 75px 0 #f1f1f1;
+}
+h2.blue-number{
+  color: #0093dd;
+  font-weight: bold;
+}
+h3.h3-days{
+  font-weight: bold;
+}
+h2.table-caption{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+thead{
+  background: #16325C;
+  color: #fff;
+}
+td.sub-headings{
+  background-color:#eeffff;
+  font-weight: bold;
+}
+section.features-table{
+  width: 85%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) {
+  .container .customer-logos .wipro {
+    position: relative;
+    bottom: 10px;
+  }
+  }
+  @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) and (min-width: 850px) and (min-width: 992px) and (min-width: 1100px) {
+    .container {
+      padding-left: 0px;
+      padding-right: 0px;
+      max-width: 2500px;
+    }
+    .container .customer-logos {
+      background-color: #eeffff;
+      padding:0px;
+    }
+    .container .customer-logos .slide {
+      margin: auto 10px;
+    }
+    .container .customer-logos .emi img,
+    .container .customer-logos .pedlite img,
+    .container .customer-logos .manipal img,
+    .container .customer-logos .ujivan img {
+      
+    }
+    .container .customer-logos .amynk img {
+      height: 180px;
+      width: auto;
+    }
+    .container .logos-company {
+      position: absolute;
+      top: 84px;
+      display: inline;
+    }
+  }
+  
+  @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) and (min-width: 850px) and (min-width: 992px) and (min-width: 1100px) and (min-width: 1250px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 2500px;
+  }
+  .container .customer-logos {
+    background-color: #eeffff;
+    padding:0px;
+  }
+  .container .customer-logos .slide {
+    margin: auto 10px;
+  }
+  .container .customer-logos .emi img,
+  .container .customer-logos .pedlite img,
+  .container .customer-logos .manipal img,
+  .container .customer-logos .ujivan img {
+    
+  }
+  .container .customer-logos .amynk img {
+    height:175px;
+    width: auto;
+  }
+  .container .customer-logos .newton img {
+    height: 175px;
+    width: auto;
+  }
+  .container .logos-company {
+    position: absolute;
+    top: 84px;
+    display: inline;
+  }
+  }
+  @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) and (min-width: 850px) and (min-width: 992px) and (min-width: 1100px) and (min-width: 1250px) and (min-width: 1395px) {
+    .container .customer-logos {
+      padding-top: 40px;
+    }
+  }
+  
+  .slick-slide {
+    margin: 0px 20px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+  }
+  
+  .slick-slider {
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-list:focus {
+    outline: none;
+  }
+  
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  
+  .slick-track:before,
+  .slick-track:after {
+    display: table;
+    content: "";
+  }
+  
+  .slick-track:after {
+    clear: both;
+  }
+  
+  .slick-loading .slick-track {
+    visibility: hidden;
+  }
+  
+  .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+  }
+  
+  [dir="rtl"] .slick-slide {
+    float: right;
+  }
+  
+  .slick-slide img {
+    display: block;
+  }
+  
+  .slick-slide.slick-loading img {
+    display: none;
+  }
+  
+  .slick-slide.dragging img {
+    pointer-events: none;
+  }
+  
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+  
+  .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+  
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+  }
+  
+  .slick-arrow.slick-hidden {
+    display: none;
+  }
+  
+  .manipal,
+  .goodrej,
+  .pedlite,
+  .wipro,
+  .ujivan {
+    height: 81px;
+    width: auto;
+  }
 
 @media only screen and (min-width:600px){
   img.ps-icon{
@@ -866,7 +1187,7 @@ ul.social-network li {
   border-top-left-radius: 0px;
 }
 .panel-pricing .panel-body {
-  font-size: 30px;
+  
   color: #777777;
   padding: 0;
   margin: 0;
@@ -1329,21 +1650,32 @@ ul.social-network li {
 }
 .pricing-list li {
   padding: 5px;
-  font-size: 12px;
+  font-size:14px;
+}
+i.fa.fa-check{
+  color: #007e33;
 }
 .custom-panel-heading {
   padding: 5px !important;
   /*background: #2BBBAD !important;*/
-  background: #0093dd !important;
-  height: 85px;
+  background-image: url('/images/Seed.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;  
+  height:200px;
 }
 .pricing-list-box {
   margin-top: 15px;
 }
 .panel-pricing {
-  height: 720px;
+  height:1660px;
   margin-bottom: 0;
   background: transparent;
+}
+.card1{
+  background-image: url('/images/Tree.png');
+  background-size: cover;
+  background-position: center;
 }
 @media (max-width: 769px) {
   .panel-pricing {
@@ -1721,15 +2053,27 @@ a:focus {
 }
 
 .trial-btn {
-  background: #0093dd;
+  background: #ffd246;
   color: #ffffff;
   padding: 20px 40px;
   border: 0;
-  border-radius: 4px;
+  border-radius:5px;
   margin-left: 10px;
   font-weight: bolder;
   font-size: 18px;
   margin-bottom: 15px;
+}
+.trial-btns{
+    background: #ffd246;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size:15px;
+    margin-top: 20px;
+    
 }
 
 .trial-btn:focus {
@@ -2050,6 +2394,7 @@ input[type="range"] {
 .pricing_accordion > li {
   display: block;
   list-style: none;
+  text-align: left;
 }
 
 .pricing_accordion > li > span {
