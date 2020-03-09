@@ -1658,7 +1658,7 @@ i.fa.fa-check{
 .custom-panel-heading {
   padding: 5px !important;
   /*background: #2BBBAD !important;*/
-  background-image: url('/images/Seed.png');
+  background-image: url('../images/Seed.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;  
