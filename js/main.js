@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
   });
   /* end of slick script */
-(function($){
+  (function($){
     $.fn.scrollingTo = function( opts ) {
         var defaults = {
             animationTime : 1000,
@@ -213,6 +213,10 @@ $(document).ready(function(){
     //         }, {breakpoint: 409, settings: {slidesToShow: 1, slidesToScroll: 1}}]
     //     });
     // });
+
+
+
+
 
 
 

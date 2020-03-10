@@ -335,22 +335,24 @@ a.social-network-a:visited{
    color: #337ab7;
 }
 .freemium-box{
-  width:80%;
+  width: 60%;
   border: 2px solid #fff;
   border-radius: 15px;
   box-shadow: 2px 2px 75px 0 #d2d2d2;
-  height:230px;
-  margin: 50px auto;
+  margin:120px auto;
+  padding: 20px 0px;
 }
 img.freemium-icons{
-  width:3%;
+  width:18%;
   margin: 0 auto;
 }
-.freemium-imgs{
-  margin: 0px 120px;
+.freemium-imgs1{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 hr{
   border: 1px solid #ffd246;
+  width:85%;
 }
 a.card2-btn{
   border: 2px solid #ffd246;
@@ -362,7 +364,7 @@ a.card2-btn{
 h3.card2-h3{
     font-weight:bold;
     text-align: center;
-    
+    font-size: 30px;
 }
 p.card2-p{
   text-align: center;
@@ -373,6 +375,7 @@ span.span-icons{
 }
 i.fa.fa-check-circle-o{
   color: #007e33;
+  margin: 0px 4px;
 }
 /*new css*/
 /*sliding logos*/
@@ -424,12 +427,12 @@ p.pf-para2{
   margin-top: 15px;
 }
 .calendar-box{
-  border: 2px solid #fff;
+  border: 2px solid #eeffff;
   width: 150px;
   margin: 0 auto;
   border-radius: 10px;
-  background-color: #fff;
-  box-shadow: 2px 2px 75px 0 #f1f1f1;
+  background-color: #eeffff;
+  box-shadow: 2px 2px 75px 0 #dedede;
 }
 h2.blue-number{
   color: #0093dd;
@@ -445,7 +448,7 @@ h2.table-caption{
     margin-top: 40px;
 }
 thead{
-  background: #16325C;
+  background: #0093dd;
   color: #fff;
 }
 td.sub-headings{
@@ -455,6 +458,13 @@ td.sub-headings{
 section.features-table{
   width: 85%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width:320px){
+  img.featureless-img{
+    width:5%;
+    margin: 0px 5px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) {
@@ -640,6 +650,14 @@ section.features-table{
   img.ps-icon{
     width: 100%;
     padding: 0px 0px 25px 0px;
+  }
+  img.freemium-icons{
+    width:11%;
+    margin: 0 auto;
+  }
+  .freemium-imgs1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 @media only screen and (min-width:992px){
@@ -1631,10 +1649,28 @@ ul.social-network li {
 i.fa.fa-check{
   color: #007e33;
 }
-.custom-panel-heading {
+.custom-panel-heading1 {
   padding: 5px !important;
   /*background: #2BBBAD !important;*/
   background-image: url('../images/Seed.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;  
+  height:200px;
+}
+.custom-panel-heading2 {
+  padding: 5px !important;
+  /*background: #2BBBAD !important;*/
+  background-image: url('../images/Sapling.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;  
+  height:200px;
+}
+.custom-panel-heading3 {
+  padding: 5px !important;
+  /*background: #2BBBAD !important;*/
+  background-image: url('../images/Tree.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;  
@@ -1644,7 +1680,7 @@ i.fa.fa-check{
   margin-top: 15px;
 }
 .panel-pricing {
-  height:1660px;
+  height:1600px;
   margin-bottom: 0;
   background: transparent;
 }
@@ -1996,6 +2032,20 @@ a:focus {
   -webkit-box-shadow: 2px 3px 8px #aaa;
   box-shadow: 2px 3px 8px #aaa;
 }
+.trial-box1 {
+  border: 2px solid #eee;
+  border-radius: 30px;
+  box-shadow: 2px 2px 75px 0 #92e0e0;
+  margin-bottom: 70px;
+  margin-top: 130px;
+}
+.cta-btn.btn-font-big {
+  font-size: 17px;
+  margin-top: 15px;
+}
+span.freemium-span{
+  padding: 0px 10px;
+}
 
 .text-blue {
   color: #0093dd;
@@ -2030,7 +2080,7 @@ a:focus {
 
 .trial-btn {
   background: #ffd246;
-  color: #ffffff;
+  color: #000;
   padding: 20px 40px;
   border: 0;
   border-radius:5px;
@@ -2041,7 +2091,7 @@ a:focus {
 }
 .trial-btns{
     background: #ffd246;
-    color: #ffffff;
+    color: #000;
     padding: 12px 20px;
     border: 0;
     border-radius: 4px;
@@ -2051,7 +2101,19 @@ a:focus {
     margin-top: 20px;
     
 }
-
+.table-btns{
+    background: #ffd246;
+    color: #000;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 20px;
+}
+td.table-header{
+  font-size: 24px;
+}
 .trial-btn:focus {
   outline: 0;
 }
