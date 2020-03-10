@@ -376,6 +376,11 @@ i.fa.fa-check-circle-o{
 }
 /*new css*/
 /*sliding logos*/
+.logos-text{
+  text-align:center;
+  font-size:28px;
+  margin-top: 35px;
+}
 .container {
   padding-left: 0px;
   padding-right: 0px;
@@ -390,24 +395,17 @@ i.fa.fa-check-circle-o{
 .container .customer-logos .slide {
   margin: auto 10px;
 }
-
-.container .customer-logos .emi img,
-.container .customer-logos .pedlite img,
-.container .customer-logos .manipal img,
-.container .customer-logos .ujivan img {
-  
-}
-
-.container .customer-logos .amynk img {
-  height:126px;
-  width: auto;
-}
-
 .container .logos-company {
   position: absolute;
   top: 84px;
   display: inline;
 }
+.container .customer-logos .manipal img {
+  margin: -4px 0px;
+ }
+ .container .customer-logos .rainbow img {
+   margin: -5px 0px;
+  }
 .plans-and-features{
   padding:20px;
 }
@@ -440,6 +438,7 @@ h2.blue-number{
 h3.h3-days{
   font-weight: bold;
 }
+
 h2.table-caption{
     font-weight: bold;
     text-align: center;
@@ -457,11 +456,9 @@ section.features-table{
   width: 85%;
   margin: 0 auto;
 }
+
 @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) {
-  .container .customer-logos .wipro {
-    position: relative;
-    bottom: 10px;
-  }
+ 
   }
   @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) and (min-width: 850px) and (min-width: 992px) and (min-width: 1100px) {
     .container {
@@ -476,21 +473,17 @@ section.features-table{
     .container .customer-logos .slide {
       margin: auto 10px;
     }
-    .container .customer-logos .emi img,
-    .container .customer-logos .pedlite img,
-    .container .customer-logos .manipal img,
-    .container .customer-logos .ujivan img {
-      
-    }
-    .container .customer-logos .amynk img {
-      height: 180px;
-      width: auto;
-    }
-    .container .logos-company {
+   .container .logos-company {
       position: absolute;
       top: 84px;
       display: inline;
     }
+    .container .customer-logos .manipal img {
+      margin: -20px 0px;
+     }
+     .container .customer-logos .rainbow img {
+       margin: -20px 0px;
+      }
   }
   
   @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) and (min-width: 850px) and (min-width: 992px) and (min-width: 1100px) and (min-width: 1250px) {
@@ -506,20 +499,12 @@ section.features-table{
   .container .customer-logos .slide {
     margin: auto 10px;
   }
-  .container .customer-logos .emi img,
-  .container .customer-logos .pedlite img,
-  .container .customer-logos .manipal img,
-  .container .customer-logos .ujivan img {
-    
+  .container .customer-logos .manipal img {
+   margin: -20px 0px;
   }
-  .container .customer-logos .amynk img {
-    height:175px;
-    width: auto;
-  }
-  .container .customer-logos .newton img {
-    height: 175px;
-    width: auto;
-  }
+  .container .customer-logos .rainbow img {
+    margin: -20px 0px;
+   }
   .container .logos-company {
     position: absolute;
     top: 84px;
@@ -527,9 +512,7 @@ section.features-table{
   }
   }
   @media only screen and (min-width: 320px) and (min-width: 375px) and (min-width: 700px) and (min-width: 850px) and (min-width: 992px) and (min-width: 1100px) and (min-width: 1250px) and (min-width: 1395px) {
-    .container .customer-logos {
-      padding-top: 40px;
-    }
+  
   }
   
   .slick-slide {
@@ -641,14 +624,7 @@ section.features-table{
     display: none;
   }
   
-  .manipal,
-  .goodrej,
-  .pedlite,
-  .wipro,
-  .ujivan {
-    height: 81px;
-    width: auto;
-  }
+ 
 
 @media only screen and (min-width:600px){
   img.ps-icon{
@@ -1606,7 +1582,7 @@ ul.social-network li {
   font-size: 13px;
 }
 .text-medium {
-  font-size: 16px;
+  font-size: 14px;
 }
 .user-box {
   /*border-top: 1px solid #ddd;*/
