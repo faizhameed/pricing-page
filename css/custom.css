@@ -1,7 +1,7 @@
 .cf-grey-section {
   padding:0px;
   /*background: #FCFCFC;*/
-  background: #eee;
+  background: #f5f5f5;
 }
 .cf-grey-sectionn{
   border: 2px solid #eee;
@@ -445,7 +445,7 @@ h3.h3-days{
 h2.table-caption{
     font-weight: bold;
     text-align: center;
-    margin-top: 40px;
+    margin:40px 0 30px 0;
 }
 thead{
   background: #0093dd;
@@ -652,7 +652,7 @@ section.features-table{
     padding: 0px 0px 25px 0px;
   }
   img.freemium-icons{
-    width:11%;
+    width:20%;
     margin: 0 auto;
   }
   .freemium-imgs1{
@@ -1680,7 +1680,7 @@ i.fa.fa-check{
   margin-top: 15px;
 }
 .panel-pricing {
-  height:1600px;
+  height:1550px;
   margin-bottom: 0;
   background: transparent;
 }
@@ -2081,7 +2081,7 @@ span.freemium-span{
 .trial-btn {
   background: #ffd246;
   color: #000;
-  padding: 20px 40px;
+  padding: 5px 40px;
   border: 0;
   border-radius:5px;
   margin-left: 10px;
@@ -2092,7 +2092,7 @@ span.freemium-span{
 .trial-btns{
     background: #ffd246;
     color: #000;
-    padding: 12px 20px;
+    padding: 5px 20px;
     border: 0;
     border-radius: 4px;
     margin-left: 10px;
@@ -2104,15 +2104,20 @@ span.freemium-span{
 .table-btns{
     background: #ffd246;
     color: #000;
-    padding: 12px 20px;
+    padding: 5px 20px;
     border: 0;
     border-radius: 4px;
     font-weight: bolder;
     font-size: 15px;
-    margin-top: 20px;
+
 }
 td.table-header{
   font-size: 24px;
+  text-align: center;
+}
+td.table-white{
+  background-color: #fff;
+  
 }
 .trial-btn:focus {
   outline: 0;
